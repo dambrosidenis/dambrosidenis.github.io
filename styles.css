@@ -1,121 +1,69 @@
-nav {
-    z-index: 10000;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    background-color: white;
-}
+/* styles.css */
 
-nav ul {
-    list-style: none;
+body {
+    margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 1px;
+    font-family: 'Fira Code', monospace;
+    background-color: #1e1e1e;
+    color: #c5c6c7;
 }
 
-nav ul li {
-    display: inline;
-    flex: 1;
-    margin-left: 3px;
-    margin-right: 3px;
-    border-bottom: 1px solid rgb(150, 150, 150);
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: rgb(150, 150, 150);
-    padding: 0px 10px 3px 10px;
-    display: block;
-    font-family: monospace;
-    font-size: 0.7em;
-}
-
-nav ul li:hover {
-    border-bottom: 1px solid black;
-    transition: 0.5s;
-}
-
-nav ul li a:hover {
-    color: black;
-    transition: 0.5s;
+header {
+    margin-bottom: 40px;
 }
 
 h1 {
-    font-size: 6em;
-    margin: 0px;
-    font-family: monospace;
+    font-size: 2.5em;
+    color: #66fcf1;
 }
 
-section {
-    display: flex;
-    padding: 10%;
+h2, h3 {
+    font-size: 1.5em;
+    color: #45a29e;
 }
 
-.custom-ul-li {
-    list-style-type: '⋙';
-    padding-inline-start: 1ch;
+h4 {
+    font-size: 1.2em;
+    color: #66fcf1;
+    margin-bottom: 10px;
 }
 
-.orange-text {
-    color: rgb(255, 119, 0);
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.section-title {
-    flex: 0 0 25%;
-    text-align: center;
-    font-family: monospace;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ul li {
+    background-color: #0b0c10;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
 }
 
-.section-content {
-    flex: 0 0 60%;
-    text-align: left;
+a {
+    color: #66fcf1;
+    text-decoration: none;
 }
 
-.centered-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
+a:hover {
+    text-decoration: underline;
 }
 
-.element {
-    align-items: center;
-    width: 50%;
+p {
+    margin: 10px 0;
 }
 
-.inner-element {
-    display: inline-block;
-    text-align: left;
-    vertical-align: middle;
-}
-
-.mono-title {
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.mono-content {
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.assistant {
-    font-family: "Assistant", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 0px;
-}
-
-.subtitle {
-    margin-bottom: 0px;
+.construction {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #66fcf1;
+    border-radius: 5px;
+    background-color: #0b0c10;
 }

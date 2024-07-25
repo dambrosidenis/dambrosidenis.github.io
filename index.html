@@ -2,141 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>pseudoCode</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denis on the web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#intro" class="mono-content">./intro/</a></li>
-            <li><a href="#selection_day" class="mono-content">./selection_day/</a></li>
-            <li><a href="#training" class="mono-content">./training/</a></li>
-            <li><a href="#compete" class="mono-content">./competition/</a></li>
-            <li><a href="#more" class="mono-content">./more/</a></li>
-            <li><a href="#apply" class="mono-content">./apply/</a></li>
-        </ul>
-    </nav>
-
-    <header class="centered-container">
-        <div class="element">
-            <div class="inner-element">
-                <h1 class="mono-title">pse<span class="orange-text">ud</span>oCode</h1>
-                <p class="mono-content">Competitive Programming @ <span class="orange-text">UniUD</span></p>
-            </div>
-        </div>
-        <div class="element">
-            <code class="inner-element mono-content"><pre>
-#include &lt;stdio.h&gt;
-using namespace uniud::challenges;
-int main () {
-    Team psC = new CompetitiveProgrammingTeam(<span class="orange-text">2024</span>);
-    psC.addMember(<span class="orange-text">"you"</span>);
-    \\ TO DO: competing in ICPC 2024
-    return 0;
-}
-            </pre></code>
-        </div>
-    </header>
-
-
-    <section id="intro">
-        <div class="section-title">
-            ./intro/
-        </div>
-        <div class="section-content">
-            <h2 class="mono-content orange-text subtitle">Who are you?</h2>
-            <p class="assistant">We are a group of enthusiastic students who love tackling algorithmic challenges together.</p>
-
-            <h2 class="mono-content orange-text subtitle">Who can join?</h2>
-            <p class="assistant">Anyone that has a passion for problem solving. You are not an avid programmer? No worries, your intuitions will be more helpful than just pressing fingers on the keyboard.</p>
-
-            <h2 class="mono-content orange-text subtitle">Why are you doing this?</h2>
-            <p class="assistant">We want to create an environment for talented and creative people to meet and thrive. There are way too many great competitions that people haven’t heard of or don’t have a team to participate with: we want to solve this, by creating an hotspot for problem-solving oriented students.</p>
-
-            <h2 class="mono-content orange-text subtitle">Seems great, what’s the plan?</h2>
-            <p class="assistant">Our main objective is to form next year’s UniUD teams for the world-recognized ICPC competitions. Below you will find all the information about the electivity requirements for the competitions and our selection process.</p>
-        </div>
-    </section>
-
-    <section id="selection_day">
-        <div class="section-title">
-            ./selection_day/
-        </div>
-        <div class="section-content">
-            <h2 class="mono-content orange-text subtitle">Selection Day</h2>
-            <p class="assistant">Sadly, there are only a limited number of teams allowed for each University. As a consequence, we are forced to choose few applicants to join the competition. We want the selection to be as transparent and fair as possible, so we opted for the following steps:</p>
-
-                <ol>
-                    <li class="assistant" style="list-style-type:'1.'; padding-inline-start: 1ch">Logic test</li>
-                    <li class="assistant" style="list-style-type:'2a.'; padding-inline-start: 1ch">Programming test</li>
-                    <li class="assistant" style="list-style-type:'2b.'; padding-inline-start: 1ch">Maths test</li>
-                </ol>
-
-            <p class="assistant">The logic test is mandatory for everybody, whereas each participant will have to choose whether they prefer to undertake either a set of programming or Mathematics questions. The test will be held in presence, in a room yet to be defined in the Rizzi main building. The competitors will be choosen solely based on the sum of the points obtained during the two tests, without considering any academic performance metric.</p>
-
-            <h2 class="mono-content orange-text subtitle">Electivity Requirements</h2>
-            <p class="assistant">The ICPC tournament has a huge list of requirements for joining, that must account for all the variety between University rules across the world. An “average” student in Udine will be <b>NOT</b> considered eligibile to participate if:</p>
-
+    <div class="container">
+        <header>
+            <h1>Denis D'Ambrosi</h1>
+            <h2>Master's Student in Artificial Intelligence and CyberSecurity</h2>
+            <h3>University of Udine and Alpen Adria Universitaet Klagenfurt</h3>
+        </header>
+        <main>
+            <section>
+                <h4>Interests</h4>
                 <ul>
-                    <li class="assistant custom-ul-li">Has been enrolled in a University for a technical degree for more than 8 semesters at the beginning of the new Academic year.</li>
-                    <li class="assistant custom-ul-li">Is not currently enrolled in a University.</li>
-                    <li class="assistant custom-ul-li">Was born before 2001.</li>
-                    <li class="assistant custom-ul-li">Joined University before 2020.</li>
+                    <li>Deep Learning</li>
+                    <li>Formal Methods</li>
+                    <li>CyberSecurity</li>
+                    <li>Competitive Programming</li>
                 </ul>
-
-            <p class="assistant">For further reference, please refer to the official document <a href="https://drive.google.com/file/d/1fRCVPJ_atQQYCeNKJ6VQtB8tTr5GJwrn/view" style="color:rgb(255, 119, 0)">here</a></p>
-        </div>
-    </section>
-
-    <section id="training">
-        <div class="section-title">
-            ./training/
-        </div>
-        <div class="section-content">
-            <h2 class="mono-content orange-text subtitle">Learn individually</h2>
-            <p class="assistant">Fire up LeetCode, Kattis, CodeForces or whatever other programming resource you like and hone your coding skills. Let the DFS be with you.</p>
-
-            <h2 class="mono-content orange-text subtitle">Team up together</h2>
-            <p class="assistant">Although competitive programming can be seen as an individual activity, ICPC competitions are not! To tackle the problems you'll have to work in 3-people teams, thus collaboration is paramount. Since group harmony is crucial in this scenario, after the initial selection we will let you form the teams on your own: find the teammates that are best for you and start bonding together, you will need it!</p>
-
-            <h2 class="mono-content orange-text subtitle">Practice as a team</h2>
-            <p class="assistant">ICPC competitions do not test only hard skills, but also collaboration, coordination and focus: one computer per team, no internet connection and a ticking timer in the background. Train to work as a team by joining online competitions such as ITACPC and practicing on past editions' problems.</p>
-        </div>
-    </section>
-
-    <section id="compete">
-        <div class="section-title">
-            ./competition/
-        </div>
-        <div class="section-content">
-            <h2 class="mono-content orange-text subtitle">SWERC</h2>
-            <p class="assistant">To join the ICPC World Finals, you will need to achieve an excellent ranking at a regional contest. Italy's Universities compete at the SWERC (South West European Regional Contest) competition, along with teams coming from France, Switzerland, Spain, Portugal, Israel, Malta, Andorra, Liechtenstein, San Marino and Vatican City. This event is not just about nervewrecking programming: meet fellow coders, network, get to speak with the sponsors' recruiters and have fun! To pass to the next round, you will need to qualify among the first 10 teams. Placements among the first 3 positions grant direct access to the ICPC World Finals.</p>
-
-            <h2 class="mono-content orange-text subtitle">EUC</h2>
-            <p class="assistant">Great, you placed in the top 10 at SWERC, now what? The EUC (ICPC European Championship) awaits for your team for another round! Same setting, same rules: ready, steady, go!</p>
-
-            <h2 class="mono-content orange-text subtitle">ICPC World Finals</h2>
-            <p class="assistant">Finally, the last step. Pat yourself on the shoulder, but don't loose focus: arriving here is an Herculean task in itself and getting a good placement will be on another level of difficulty.</p>
-        </div>
-    </section>
-
-    <section id="more">
-        <div class="section-title">
-            ./more/
-        </div>
-        <div class="section-content">
-            <h2 class="mono-content orange-text subtitle">I did not pass the selection, am I doomed?</h2>
-            <p class="assistant">Unfortunately, you will not be able to join SWERC with us, but cheer up, there still much you can do! Apart from organizing the teams for the ICPC tournament, we really want to provide a place where like-minded people can meet and choose their own challenges, so the group is open to anyone interested. There are endless competitions and hackathons across the world that you can join with your new friends before the next round of selections, so take this time to train while also having fun.</p>
-        </div>
-    </section>
-
-    <section id="apply">
-        <h2 class="mono-content orange-text subtitle">APPLY</h2>
-    </section>
-
+            </section>
+            <section>
+                <h4>Contact Information</h4>
+                <p>Email: dambrosidenis [at] gmail [dot] com</p>
+                <p>LinkedIn: <a href="www.linkedin.com/in/denis-dambrosi">denis-dambrosi</a></p>
+                <p>GitHub: <a href="https://github.com/dambrosidenis">dambrosidenis</a></p>
+            </section>
+            <section class="construction">
+                <h4>🚧 Website Under Construction 🚧</h4>
+                <p>This website is currently under construction. Please check back later for more updates.</p>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
